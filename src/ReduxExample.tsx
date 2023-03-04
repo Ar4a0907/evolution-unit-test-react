@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { createStore, type Action } from 'redux'
+import { createStore, Action } from 'redux'
 
 export type CounterState = {
     counter: number
